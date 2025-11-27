@@ -1,0 +1,194 @@
+/* ============================
+   RESET GLOBAL
+============================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ============================
+   BODY / LAYOUT
+============================ */
+body {
+    font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+    background: linear-gradient(135deg, #eef1f5, #ffffff);
+    color: #1f2d3d;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+/* ============================
+   TÍTULO
+============================ */
+h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #2c3e50;
+    letter-spacing: 0.5px;
+
+    text-align: center;
+    position: relative;
+
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+
+    /* Linha elegante embaixo */
+    width: fit-content;
+}
+
+h2::after {
+    content: "";
+    width: 70%;
+    height: 3px;
+    background: #2c3e50;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ============================
+   CONTÊINER DA IMAGEM
+============================ */
+img {
+    width: 100%;
+    max-width: 900px;
+
+    background: #fff;
+    border-radius: 14px;
+
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+
+    padding: 12px;
+    transition: 
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        filter 0.35s ease;
+}
+
+/* Efeito hover premium */
+img:hover {
+    transform: scale(1.025);
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.22);
+    filter: brightness(1.03);
+}
+/* ============================
+   RESET GLOBAL
+============================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ============================
+   BODY / LAYOUT
+============================ */
+body {
+    font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+    background: linear-gradient(135deg, #eef1f5, #ffffff);
+    color: #1f2d3d;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+/* ============================
+   TÍTULO
+============================ */
+h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #2c3e50;
+    letter-spacing: 0.5px;
+
+    text-align: center;
+    position: relative;
+
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+
+    width: fit-content;
+}
+
+h2::after {
+    content: "";
+    width: 70%;
+    height: 3px;
+    background: #2c3e50;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ============================
+   IMAGEM (CARD)
+============================ */
+img {
+    width: 100%;
+    max-width: 900px;
+
+    background: #fff;
+    border-radius: 14px;
+
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+
+    padding: 12px;
+    transition: 
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        filter 0.35s ease;
+}
+
+/* Efeito hover premium */
+img:hover {
+    transform: scale(1.025);
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.22);
+    filter: brightness(1.03);
+}
+
+/* ============================
+   RESPONSIVIDADE PARA CELULARES
+============================ */
+@media (max-width: 600px) {
+
+    body {
+        padding: 30px 10px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        margin-bottom: 25px;
+        padding-bottom: 10px;
+    }
+
+    h2::after {
+        width: 60%;
+        height: 2px;
+    }
+
+    img {
+        padding: 8px;
+        border-radius: 10px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+        transition: none; /* remove hover exagerado no mobile */
+    }
+
+    img:hover {
+        transform: none;
+        box-shadow: none;
+        filter: none;
+    }
+}
+
