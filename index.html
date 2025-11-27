@@ -1,59 +1,195 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Freemium</title>
 </head>
+
 <body>
-      <header id="cabecalho">
-        
-        <h1>FREEMIUM</h1>
-        <nav>
-            <ul>
-                <li><a href="#banner">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-            </ul>
-        </nav>
+    <header id="cabecalho">
+        <div class="header-container">
+            <h1>FREEMIUM</h1>
+            <nav>
+                <ul>
+                    <li><a href="#banner">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#vantagens">Vantagens</a></li>
+                    <li><a href="#exemplos">Exemplos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
     </header>
-       </header>
 
     <main>
-        <section id="banner"></section>
-        <section id="sobre">
-            <h2>SOBRE O SITE</h2>
-            <p>A lógica do modelo freemium é atrair um grande número de usuários com 
-                um produto básico gratuito (free) e, então, converter uma porcentagem 
-                deles em clientes pagantes (premium), que adquirem recursos avançados,
-                 mais funcionalidades ou uma experiência sem anúncios. A estratégia permite
-                  construir uma base de usuários engajados, reduzindo custos de marketing ao
-                   possibilitar que as pessoas experimentem o produto antes de pagar. Além disso,
-                    o modelo cria um ciclo de crescimento orgânico, já que usuários satisfeitos
-                     tendem a recomendar o serviço de forma espontânea. A versão gratuita funciona
-                      como porta de entrada e também como prova de valor, enquanto a versão premium
-                       garante sustentabilidade financeira ao negócio. Empresas que adotam o freemium
-                        geralmente investem em melhorias contínuas na experiência do usuário, análises
-                         de comportamento e segmentação para identificar o momento certo de incentivar
-                          o upgrade. Dessa forma, o freemium equilibra alcance, retenção e monetização, 
-                consolidando-se como uma das estratégias mais eficazes na economia digital.</p>
-
-            <h2>CURIOSIDADE</h2>
-        <p>O termo freemium foi usado pela primeira vez em 2006 pelo investidor Fred Wilson,
-                 em um post de blog no qual ele descreveu o modelo como “dê o seu produto de graça e
-                  depois cobre por funcionalidades premium”. O nome pegou tão rápido que, em poucos anos,
-                 se tornou um dos pilares da economia de aplicativos.
-            </p>
-            <p>CONFIRA!</p>
-            <h2>GALERIA DE FOTOS</h2>
-            <div class="container">
-                <img src="./assets/freemiumImageeem.png" alt="">
-                 <img src="./assets/brawlLogo.png" alt="">
-                  <img src="./assets/robloxLogo.png" alt="">
+        <section id="banner">
+            <div class="banner-content">
+                <h2>O Modelo Freemium</h2>
+                <p>Descubra como o modelo freemium está revolucionando negócios digitais</p>
+                <a href="#sobre" class="cta-button">Saiba Mais</a>
             </div>
         </section>
 
+        <section id="sobre">
+            <div class="container">
+                <h2>SOBRE O MODELO FREEMIUM</h2>
+                <div class="content-grid">
+                    <div class="text-content">
+                        <p>A lógica do modelo freemium é atrair um grande número de usuários com
+                            um produto básico gratuito (free) e, então, converter uma porcentagem
+                            deles em clientes pagantes (premium), que adquirem recursos avançados,
+                            mais funcionalidades ou uma experiência sem anúncios. A estratégia permite
+                            construir uma base de usuários engajados, reduzindo custos de marketing ao
+                            possibilitar que as pessoas experimentem o produto antes de pagar.</p>
+                        
+                        <h3>CURIOSIDADE</h3>
+                        <p>O termo freemium foi usado pela primeira vez em 2006 pelo investidor Fred Wilson,
+                            em um post de blog no qual ele descreveu o modelo como "dê o seu produto de graça e
+                            depois cobre por funcionalidades premium". O nome pegou tão rápido que, em poucos anos,
+                            se tornou um dos pilares da economia de aplicativos.
+                        </p>
+                    </div>
+                    <div class="image-content">
+                        <img src="./assets/logoLucasCristian.svg" alt="Logo Freemium">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="vantagens">
+            <div class="container">
+                <h2>VANTAGENS DO MODELO FREEMIUM</h2>
+                <div class="vantagens-grid">
+                    <div class="vantagem-card">
+                        <div class="vantagem-icon">📈</div>
+                        <h3>Aquisição de Usuários</h3>
+                        <p>Atrai um grande volume de usuários com a oferta gratuita, facilitando a expansão da base de clientes.</p>
+                    </div>
+                    <div class="vantagem-card">
+                        <div class="vantagem-icon">💰</div>
+                        <h3>Monetização</h3>
+                        <p>Converte uma parte dos usuários gratuitos em clientes pagantes, gerando receita sustentável.</p>
+                    </div>
+                    <div class="vantagem-card">
+                        <div class="vantagem-icon">🔄</div>
+                        <h3>Retenção</h3>
+                        <p>Usuários que experimentam o produto tendem a permanecer mais tempo na plataforma.</p>
+                    </div>
+                    <div class="vantagem-card">
+                        <div class="vantagem-icon">📢</div>
+                        <h3>Marketing Orgânico</h3>
+                        <p>Usuários satisfeitos se tornam promotores naturais do produto, reduzindo custos de aquisição.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="exemplos">
+            <div class="container">
+                <h2>EXEMPLOS DE SUCESSO</h2>
+                <p class="section-subtitle">Conheça algumas empresas que utilizam o modelo freemium com sucesso</p>
+                <div class="exemplos-grid">
+                    <div class="exemplo-card">
+                        <img src="./assets/spotifyLogo.jpg" alt="Spotify">
+                        <h3>Spotify</h3>
+                        <p>Oferece música gratuita com anúncios e uma versão premium sem interrupções.</p>
+                    </div>
+                    <div class="exemplo-card">
+                        <img src="./assets/dropboxLogo.webp" alt="Dropbox">
+                        <h3>Dropbox</h3>
+                        <p>Fornece armazenamento gratuito com opção de upgrade para mais espaço.</p>
+                    </div>
+                    <div class="exemplo-card">
+                        <img src="./assets/linkedinLogo.webp" alt="LinkedIn">
+                        <h3>LinkedIn</h3>
+                        <p>Rede social profissional com recursos básicos gratuitos e premium para recrutamento.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <div class="container">
+                <h2>EXEMPLO DE JOGOS FREEMIUM</h2>
+                <div class="gallery-container">
+                    <img src="./assets/ffLogo.webp" alt="Logo Freemium">
+                    <img src="./assets/brawlLogo.jpg" alt="Brawl Stars">
+                    <img src="./assets/robloxLogo.png" alt="Roblox">
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <h2>ENTRE EM CONTATO</h2>
+                <p>Tem dúvidas sobre o modelo freemium? Entre em contato conosco!</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>FREEMIUM</h3>
+                    <p>Explorando as possibilidades do modelo de negócios freemium na era digital.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#banner">Home</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#vantagens">Vantagens</a></li>
+                        <li><a href="#exemplos">Exemplos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="./videoExp.html">Vídeo Explicativo</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>email@exemplo.com</p>
+                    <p>+55 (11) 99999-9999</p>
+                    <div class="social-icons">
+                        <a href="#"><img src="./assets/facebook-icon.png" alt="Facebook"></a>
+                        <a href="#"><img src="./assets/twitter-icon.png" alt="Twitter"></a>
+                        <a href="#"><img src="./assets/instagram-icon.png" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Freemium. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
 
     <footer>
         <a href="./videofreemium.html"><p>VIDEO EXPLICATIVO SOBRE O FREEMIUM</p></a>
